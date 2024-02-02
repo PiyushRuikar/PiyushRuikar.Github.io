@@ -35,14 +35,14 @@ $(document).ready(function () {
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Java Developer", "Coder", "Problem Solver"],
+        strings: ["Coder", "Problem Solver"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true,
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Front-End Developer", "Coder", "Problem Solver", "UI Designer"],
+        strings: ["Data Analyst", "Coder", "Problem Solver", "Data Engineer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true,
@@ -74,15 +74,15 @@ $(document).ready(function () {
 
 let res = document.getElementById("portfolioDownload")
 res.addEventListener("click", () => {
-    window.open("https://drive.google.com/file/d/1Kc6mMWHNep-eJan4ZsOcARtHedCzEWvx/view?usp=share_link")
+    window.open("https://drive.google.com/file/d/1_0Nt-0JWVXjFWwldKZj6zLxdOKeTsECS/view?usp=drive_link")
 })
 
 let res2 = document.getElementById("portfolioDownload2")
 res2.addEventListener("click", () => {
-    window.open("https://drive.google.com/file/d/1Kc6mMWHNep-eJan4ZsOcARtHedCzEWvx/view?usp=share_link")
+    window.open("https://drive.google.com/file/d/1_0Nt-0JWVXjFWwldKZj6zLxdOKeTsECS/view?usp=drive_link")
 })
 
 
-GitHubCalendar(".calendar", "yashbank");
+GitHubCalendar(".calendar", "piyushruikar");
 // or enable responsive functionality
-GitHubCalendar(".calendar", "yashbank", { responsive: true });
+GitHubCalendar(".calendar", "piyushruikar", { responsive: true });
